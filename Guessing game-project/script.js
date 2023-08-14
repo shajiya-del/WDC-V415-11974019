@@ -7,7 +7,7 @@ const options = {
   shuffle: "Mix cards up ",
   combine: "Add; Mix",
   guitar: "musical instrument",
-  golg: "a yellow precious metal",
+  gold: "a yellow precious metal",
   disturb: "Interrupt; upset ",
   shift: "Move; Period of word",
   machine: "Device or appliance",
@@ -37,7 +37,7 @@ const generateRandomValue = (array) => Math.floor(Math.random() * array.length);
 
 //Block all the buttons
 const blocker = () => {
-  let lettersButtons = document.querySelectorAll(".letters");
+let lettersButtons = document.querySelectorAll(".letters");
   stopGame();
 };
 
